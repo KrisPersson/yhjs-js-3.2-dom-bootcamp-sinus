@@ -110,6 +110,6 @@ const articlesArr = [art1El[0], art2El[0], art3El[0]]
 
 for (let i = 0; i < articlesArr.length; i++) {
     articlesArr[i].addEventListener('click', () => {
-        console.log(`Hi, Im article ${articlesArr[i].childNodes[5].innerText}`)
+        console.log(`Hi, I'm article ${articlesArr[i].childNodes[5].innerText}`)
     })
 }
